@@ -153,6 +153,53 @@
         .social-links a:hover {
             color: #ecf0f1;
         }
+        @media (max-width: 768px) {
+            .main-nav a {
+                display: block;
+                padding: 10px;
+                font-size: 16px;
+            }
+            .submenu button {
+                padding: 10px;
+                font-size: 14px;
+            }
+            .search-section input {
+                width: 80%;
+                margin-bottom: 10px;
+            }
+            .search-section button {
+                width: 80%;
+            }
+            .lawyer-card {
+                width: 150px;
+            }
+            .lawyer-card img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+        @media (max-width: 480px) {
+            .main-nav a {
+                font-size: 14px;
+            }
+            .submenu button {
+                padding: 8px;
+                font-size: 12px;
+            }
+            .search-section input {
+                width: 100%;
+            }
+            .search-section button {
+                width: 100%;
+            }
+            .lawyer-card {
+                width: 120px;
+            }
+            .lawyer-card img {
+                width: 80px;
+                height: 80px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -209,7 +256,7 @@
     </section>
     
     <section class="puzzle-section">
-        <h3>BHEJA FRY</h3>
+        <h3>Top Lawyers</h3>
         <div class="rotating-profiles">
             <div class="lawyer-card">
                 <img src="download.jpeg" alt="Lawyer">
